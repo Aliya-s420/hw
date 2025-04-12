@@ -86,9 +86,6 @@ class Warrior(Hero):
         print(f'Warrior {self.name} hit critically {crit}')
 
 
-class Wittchen(Hero):
-    pass
-
 class Magic(Hero):
     def __init__(self, name, health, damage):
         super().__init__(name, health, damage, 'BOOST')
